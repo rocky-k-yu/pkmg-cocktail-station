@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "typeRoots": [
+      "@types",
+      "../../node_modules/@types"
+    ],
+    "noImplicitAny": false
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "../components"
+    },
+    {
+      "path": "../common"
+    }
+  ]
+}
