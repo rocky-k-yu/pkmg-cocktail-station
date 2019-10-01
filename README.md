@@ -1,15 +1,15 @@
-# Barista-bench
+# React-native-cocktail-station
 This is a fork of [brunolemos/react-native-web-monorepo](https://github.com/brunolemos/react-native-web-monorepo)
 - Add React router
 - Add a microservice 
 - Add asynchronous injection of the mini-app router from the microservice
 
 ## Why I choose this name?
-Having a coffee bench is a cool thing in coder's workplace.
+Having a cocktail station is a cool thing in coder's workplace.
 
-A barista who is standing behind her bench can utilise a limited number of ingredients to produce magical beverages.
+A bartender who is standing behind her cocktail station can utilise a variety of alcohol to produce magical cocktails to serve one’s taste.
 
-Meanwhile, developers who are using yarn-workspace can combine self-sustained modules to produce amazing applications.
+Meanwhile, developers who are using yarn-workspace can combine self-sustained modules to produce amazing applications to deliver content in various platforms.
 
 I am sure you can see the light here.
 
