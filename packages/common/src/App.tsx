@@ -8,12 +8,12 @@ import IamRouter from './routes/IamRouter';
 import { Router, Route } from './shared/Routing';
 
 const App = () => (
-    <Router>
-        <Route exact path="/" component={WelcomeScreen} />
-        <Route path="/Home" component={HomeScreen} />
-        <Route path="/MiniApp" component={MiniAppScreen} />
-        <Route path="/login" render={IamRouter}/>
-    </Router>
+  <Router>
+    <Route exact path="/" component={WelcomeScreen} />
+    <Route path="/Home" component={HomeScreen} />
+    <Route path="/MiniApp" component={MiniAppScreen} />
+    <Route path="/iam" render={IamRouter} />
+  </Router>
 );
 
 
