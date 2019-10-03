@@ -23,15 +23,14 @@ const StaticScreen: FunctionComponent<StaticProps> = ({ title, link, children })
 
   return (
     <View style={styles.dummy}>
-      <Text>{title}</Text>
-      <Text>is actually a demo of static DummyScreen</Text>
+      <Text style={styles.title}>{title || "A demo of StaticScreen"}</Text>
+      {children}
       {link &&
         <Link
           to={link}>
           <Text>{`Click to go ${link}`}</Text>
         </Link>
       }
-      {children}
     </View>
   )
 }
@@ -42,6 +41,10 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: "200"
   }
 })
 

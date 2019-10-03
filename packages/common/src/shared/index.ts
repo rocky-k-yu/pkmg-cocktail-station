@@ -1,4 +1,3 @@
-export { withLazyloadScreen } from './withLazyloadScreen';
-export { withLazyloadMiniApp } from './withLazyloadMiniApp';
-export * from './Routing';
-export { default as StaticScreen } from './StaticScreen';
+export { withLazyloadMiniApp } from './containers/withLazyloadMiniApp';
+export * from './components/Routing';
+export { default as StaticScreen } from './components/StaticScreen';

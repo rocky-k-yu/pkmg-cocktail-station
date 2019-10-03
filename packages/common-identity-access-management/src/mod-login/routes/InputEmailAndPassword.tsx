@@ -22,7 +22,7 @@ const LoginStep1 = (props: any) => {
   console.log(props)
   return (
     <StaticScreen
-      title="LoginStep1 in @/common-iam"
+      title="Input Email and Password"
       link="input-one-time-pin">
       <Formik
         initialValues={{ email: '', password: '' }}
